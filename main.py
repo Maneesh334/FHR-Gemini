@@ -1,7 +1,7 @@
 from db import create_connection,retrieve_admission_note, retrieve_delivery_note, retrieve_antepartuminformation_note
 from gemini import retrieve_encounter_admission_info, retrieve_encounter_antepartum_info, retrieve_encounter_delivery_info
 
-GOOGLE_API_KEY = 'AIzaSyB7qQtDbr3aTBmwB92MnH8njD4VvtOd8Jc'
+GOOGLE_API_KEY = ''
 import google.generativeai as genai
 #Configuring genai to pickup our api key
 genai.configure(api_key=GOOGLE_API_KEY)
